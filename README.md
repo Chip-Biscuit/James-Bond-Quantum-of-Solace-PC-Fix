@@ -1,4 +1,4 @@
-![ezgif-2abf7f0f9f74038f](https://github.com/user-attachments/assets/31d76e55-d00a-4118-9dbf-7a885f659219)<div align="center">
+<div align="center">
 
 # 🎮 Game Specific Patches & DLL Wrappers  
 
