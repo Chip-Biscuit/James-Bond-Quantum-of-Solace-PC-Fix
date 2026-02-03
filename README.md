@@ -95,8 +95,6 @@ https://discord.gg/eVJ7sQH7Cc
 
 Credit to Elisha Riedlinger for the base wrapper and ThirteenAG.
 
-Credit to GitHub user "SuperSamus" for pointing out that FPS limit should not be hardcoded to a high limit.
-
 ---
 
 ### Fix Enhancers  
