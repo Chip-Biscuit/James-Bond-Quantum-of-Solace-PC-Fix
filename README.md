@@ -46,23 +46,23 @@ The default layout is as follows:
 
 you can use controller also for the FOV toggle and FPS toggle by default it would be RB + left FPS toggle, RB + right FOV toggle. if you change the hotkeys for FOV and FPS here: 
 
-[FOV] 
-hotkey_vk=0x05
+        [FOV] 
+        hotkey_vk=0x05
 
-[FPS]
-toggle_vk=0x06 
+        [FPS]
+        toggle_vk=0x06 
 
 you will have to update the corresponding key here:
 
-combo6=RB+DpadRight
-combo6_vks=0x05               ; FOV toggle <- make sure this matches the same hotkey as under [FOV above]
-combo6_modes=HOLD
-combo6_suppress=1
+        combo6=RB+DpadRight
+        combo6_vks=0x05 ----- FOV toggle <- make sure this matches the same hotkey as under [FOV above]
+        combo6_modes=HOLD
+        combo6_suppress=1
 
-combo7=RB+DpadLeft
-combo7_vks=0x06               ; FPS toggle <- make sure this matches the same hotkey as under [FPS above]
-combo7_modes=HOLD
-combo7_suppress=1
+        combo7=RB+DpadLeft
+        combo7_vks=0x06 ----- FPS toggle <- make sure this matches the same hotkey as under [FPS above]
+        combo7_modes=HOLD
+        combo7_suppress=1
 
 # Mod Menu
 This fix includes the mod menu from https://www.speedrun.com/qos/resources/6sb4i for convenience of the end user to have everything all together in one fix and to preserve the menu so that it is not lost. 
