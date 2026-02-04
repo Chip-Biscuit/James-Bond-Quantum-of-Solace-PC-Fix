@@ -76,6 +76,15 @@ you will have to update the corresponding key here:
         combo7_modes=HOLD
         combo7_suppress=1
 
+you can use controller also for the MOD menu as follows: 
+
+          Select - tab - open phone menu
+          RB + UP - 2 - start the mod menu
+          Start - esc - back to game 
+          Right trigger/ Left Trigger - rmb/lmb -  navigate the mod menu
+          X - F - Select things in the menu 
+          RB + Down - Q - Quit the menu
+
 # Mod Menu
 This fix includes the mod menu from https://www.speedrun.com/qos/resources/6sb4i for convenience of the end user to have everything all together in one fix and to preserve the menu so that it is not lost. 
 **FIX ENHANCERS MAKES IT CLEAR THAT IT DID NOT MAKE THIS MOD MENU AND IF THE ORIGINAL CREATOR WISHES IT REMOVED FROM THE FIX, THEN IT WILL BE REMOVED**.
@@ -84,7 +93,16 @@ All this Dll does with mod menu is installs the required file for you via automa
 
 The user can turn on the Mod Menu inside of the d3d9.ini file via the option [ModMenu] which is off ‘0’ by default. Once turned on in the d3d9.ini file to activate in-game, press Tab then use the ‘2’ key. Left Click and Right Click to navigate the menus, ‘F’ to select, and ‘Q’ to exit. Note that the first step is always tied to opening the phone and will reflect if this binding is changed from the default Tab.
 
-Vote to see the game return via GOG Dreamlist
+you can use controller also for the MOD menu as follows: 
+
+          Select - tab - open phone menu
+          RB + UP - 2 - start the mod menu
+          Start - esc - back to game 
+          Right trigger/ Left Trigger - rmb/lmb -  navigate the mod menu
+          X - F - Select things in the menu 
+          RB + Down - Q - Quit the menu
+
+# Vote to see the game return via GOG Dreamlist
 If you are interested in potentially seeing this game easily available to purchase and use today then go and vote on the games GOG Dreamlist to help make this become a reality, you can vote for the game here and write a message about the game if you wish – https://www.gog.com/dreamlist/game/james-bond-007-quantum-of-solace-2008 
 
 # Issues/Problems
