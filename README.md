@@ -50,7 +50,7 @@ QTEs (Quick Time Events) will still show up as keyboard prompts so it is advised
 
 you can fully customize the layout of the controller inside of d3d9.ini all explained inside the configuration file.
 
-Recomended if you are using the controller to go into the game options -> gameplay -> look sensitivity and turn it down to somewhere between 0 - 4 otherwise it is very fast trying to look around on controller.
+**Recomended if you are using the controller to go into the game options -> gameplay -> look sensitivity and turn it down to somewhere between 0 - 4 otherwise it is very fast trying to look around on controller.**
 
 The default layout is as follows:
 
