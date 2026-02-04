@@ -118,7 +118,7 @@ https://discord.gg/eVJ7sQH7Cc
 
 # Credits
 
-Credit to Elisha Riedlinger for the base wrapper and ThirteenAG.
+Credit to Elisha Riedlinger for the base wrapper (d3d9) and ThirteenAG for the ultimate asi loader used in JamesBondQOSFixASI.zip
 
 ---
 
