@@ -31,7 +31,13 @@ This fix is designed with only the Single Player portion of the game in mind. If
 
 
 # Instructions
-Go to release, download the JamesBondQuantumofSolaceFix.zip file (d3d9 wrapper) or JamesBondQOSFixASI.zip (stand alone DLL as .asi extention using 13ag ultimate asi loader for people who wish to use in tandem with other dlls.) and extract either one that you choose, then put the d3d9.dll and d3d9.ini files into your game folder next to the JB_Launcher_s.exe file. 
+Go to [release](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/tag/QOS), download the **[JamesBondQuantumofSolaceFix.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFix.zip)** file (d3d9 wrapper)
+
+ or **[JamesBondQOSFixASI.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFixASI.zip)** (stand alone DLL (Chip.dll) as (Chip.asi) extention which is using [13ag ultimate asi loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) (xlive.dll) for people who wish to use in tandem with other dlls.) 
+
+Extract either one that you choose either (JamesBondQOSFix.zip) or (JamesBondQOSFixASI.zip), then put the files into your game folder next to the JB_Launcher_s.exe file. 
+
+It is possible to take Chip.asi and rename it to Chip.dll then you could inject it yourself using any method you wish make sure to also take chip.ini and put it next to Chip.dll. 
 
 **For standard users it is highly recommended to just use JamesBondQuantumofSolaceFix.zip file (d3d9 wrapper)**
 
