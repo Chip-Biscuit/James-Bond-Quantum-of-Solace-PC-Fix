@@ -70,20 +70,20 @@ Default is FOVAutomatic = 1
 
 You can set your preferred in-game FOV using:
 
-```
-[FOV]
-value=100    ; set this to any FOV you prefer
-```
+
+         [FOV]
+         value=100    ; set this to any FOV you prefer
+
 
 #### Automatic FOV Mode (FOVAutomatic=1)
 
 If `FOVAutomatic=1`, the game will **always enforce** the FOV from `value=` for the entire session (no hotkey toggle).
 
-```
-[FOV]
-FOVAutomatic=1
-value=100
-```
+
+         [FOV]
+         FOVAutomatic=1
+         value=100
+
 
 #### Toggle FOV Mode (FOVAutomatic=0)
 
@@ -92,11 +92,11 @@ If `FOVAutomatic=0`, the mod enables the **FOV toggle hotkey**. While in-game, p
 - The game’s **original FOV**
 - Your **user-defined FOV** (`value=`)
 
-```
-[FOV]
-FOVAutomatic=0
-value=100
-```
+
+       [FOV]
+       FOVAutomatic=0
+       value=100
+
 
 The original FOV is automatically detected and stored when the game initializes, allowing safe switching between the default value and your custom value during gameplay.
 
