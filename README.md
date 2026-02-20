@@ -60,6 +60,15 @@ It is also possible to take Chip.asi and rename it to Chip.dll, then inject it m
 You can edit the settings for JamesBondQuantumofSolaceFix.zip in the d3d9.ini file.  
 For JamesBondQOSFixASI.zip, edit settings in: scripts → chip.ini
 
+# Xliveless
+
+This game relies on Games for Windows Live (GFWL), which no longer works reliably on modern versions of Windows.
+
+To avoid launch and save issues, it is recommended to use Xliveless instead:
+https://community.pcgamingwiki.com/files/file/576-xliveless/
+
+Xliveless removes the GFWL dependency and allows the game to run normally on modern systems.
+
 # FPS
 
 Default for FPS is 120 which you can change in the d3d9.ini or chip.ini file. The user can use the FPS toggle if they find it breaks at certain points at too high FPS. The toggle will set it back down to the original 30fps. When in game, press the hotkey the user has chosen in [hotkey]keycodes.txt and enter the virtual code in the d3d9.ini or chip.ini to toggle between the original and the new FPS setting.
