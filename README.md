@@ -123,9 +123,9 @@ you can fully customize the layout of the controller inside of d3d9.ini all expl
 
 The default layout is as follows:
 
-<img width="1658" height="1133" alt="Screenshot_2026-01-28_183726" src="https://github.com/user-attachments/assets/152824e9-dff8-47e0-baa2-cc3e75a51643" />
+<img width="1658" height="1133" alt="James_Bond_Quantum_of_Solace_Controller_Layout" src="https://github.com/user-attachments/assets/6a99fe83-1e4b-4fbe-b3ab-c07bc0982911" />
 
-<img width="1427" height="1697" alt="Screenshot_2026-01-28_144241" src="https://github.com/user-attachments/assets/55936bd2-a10b-4fbd-bfb8-24066e4a6ae5" />
+<img width="1427" height="1697" alt="James_Bond_Quantum_of_Solace_Controls" src="https://github.com/user-attachments/assets/aab793c9-fdd6-4416-ae6c-d152a6ef4f93" />
 
 you can use controller also for the FOV toggle and FPS toggle by default it would be LB + left FPS toggle, LB + right FOV toggle. if you change the hotkeys for FOV and FPS here: 
 
