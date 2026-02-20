@@ -16,7 +16,7 @@
 
 Reverse Engineering • Programming • Patching • Game Improvements • DLL Creation 
 
-[![Total Downloads](https://img.shields.io/github/downloads/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/QOSUpdate/total)](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/tag/QOSUpdate)
+[![Total Downloads](https://img.shields.io/github/downloads/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/QOSUpdate/total?label=Total%20Downloads)](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/tag/QOSUpdate)
 
 
 <sub>click the Total Downloads button above to take you to the releases page and download the zip at the bottom</sub>
