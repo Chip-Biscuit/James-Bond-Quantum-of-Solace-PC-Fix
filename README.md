@@ -34,12 +34,12 @@ This fix is designed with only the Single Player portion of the game in mind. If
 
 Go to [release](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/tag/QOS) and download either:
 
-**[JamesBondQuantumofSolaceFix.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFix.zip)**  
+**[JamesBondQuantumofSolaceFix.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOSUpdate/JamesBondQOSFix.zip)**  
 (d3d9 wrapper) — designed for standard users who just wish to use the fix stand-alone. Simply drag and drop the files into the game folder and launch the game.
 
 or
 
-**[JamesBondQOSFixASI.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFixASI.zip)**  
+**[JamesBondQOSFixASI.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOSUpdate/JamesBondQOSFixASI.zip)**  
 (stand-alone DLL provided as Chip.asi) which uses 13AG Ultimate ASI Loader (winmm.dll). This version is intended for users who wish to use the fix in tandem with other DLLs or wrappers.
 
 If the included winmm.dll is not working as intended, you can use any of the alternative loader DLLs from  
