@@ -61,12 +61,22 @@ You can edit the settings for JamesBondQuantumofSolaceFix.zip in the d3d9.ini fi
 For JamesBondQOSFixASI.zip, edit settings in: scripts → chip.ini
 
 # FPS
-Default for FPS is 60 which you can change in the d3d9.ini file. The user can use the FPS toggle if they find it breaks at certain points at too high FPS. The toggle will set it back down to the original 30fps. When in game, press the hotkey the user has chosen in [hotkey]keycodes.txt and enter the virtual code in the d3d9.ini to toggle between the original and the new FPS setting.
+
+Default for FPS is 120 which you can change in the d3d9.ini or chip.ini file. The user can use the FPS toggle if they find it breaks at certain points at too high FPS. The toggle will set it back down to the original 30fps. When in game, press the hotkey the user has chosen in [hotkey]keycodes.txt and enter the virtual code in the d3d9.ini or chip.ini to toggle between the original and the new FPS setting.
 
 # FOV
-The user has 4 different FOVs to choose from. When in game, press the hotkey the user has chosen in [hotkey]keycodes.txt and enter the virtual code in the d3d9.ini to toggle between the original and the new FOV settings anytime in game.
+
+The user can now define a custom FOV value directly in the INI.
+
+When in game, press the hotkey configured in d3d9.ini or chip.ini to toggle between the game’s original FOV and the user-defined FOV at any time.
+
+[FOV]
+value=100   (set this to any FOV you prefer)
+
+The original FOV is automatically detected and stored when the game initializes, allowing safe switching between the default value and the custom value during gameplay.
 
 # Controller
+
 This is the first as accurate as possible implementation of controller support written by Chip (ChipXinput) for the Single Player of this game. The layout is the same as the layout of the Xbox 360 release of the game.
 
 **VERY IMPORTANT – user must go into the games option menu controls and set the ‘Cycle Weapon’ option to ‘5’. If this is not done, then the ability to cycle weapons will not work.**
