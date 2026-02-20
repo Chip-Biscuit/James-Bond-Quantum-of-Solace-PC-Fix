@@ -115,6 +115,10 @@ you can use controller also for the MOD menu as follows:
           X -------------------------------------- F ------------------- Select things in the menu 
           LB + Down ------------------------------ Q ---------------------- Quit the menu
 
+**important** 
+
+If modmenu = 1 you are unable to use previous saves but if modmenu = 0 saves work just fine make sure if you will be enabling the mod menu to back up any saves you have before use. 
+
 # Vote to see the game return via GOG Dreamlist
 If you are interested in potentially seeing this game easily available to purchase and use today then go and vote on the games GOG Dreamlist to help make this become a reality, you can vote for the game here and write a message about the game if you wish – https://www.gog.com/dreamlist/game/james-bond-007-quantum-of-solace-2008 
 
