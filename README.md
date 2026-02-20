@@ -66,7 +66,7 @@ Default for FPS is 120 which you can change in the d3d9.ini or chip.ini file. Th
 
 # FOV Settings
 
-Default is FOVAutomatic = 1
+Default is `FOVAutomatic=1`
 
 You can set your preferred in-game FOV using:
 
