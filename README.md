@@ -31,18 +31,34 @@ This fix is designed with only the Single Player portion of the game in mind. If
 
 
 # Instructions
-Go to [release](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/tag/QOS), download the **[JamesBondQuantumofSolaceFix.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFix.zip)** file (d3d9 wrapper) this fix is designed for standard users who just wish to use the fix stand alone drag and drop the files and play the game.
 
- or **[JamesBondQOSFixASI.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFixASI.zip)** (stand alone DLL (Chip.dll) as (Chip.asi) extention which is using 13ag ultimate asi loader (winmm.dll) for people who wish to use in tandem with other dlls. if the winmm.dll file is not working as intended you can use any of the other dlls in [13ag ultimate asi loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) visit the page for more info on how to use this. ) winmm.dll loads the files inside of the scripts folder this fix is designed for more advanced users or those wishing to load other dlls or wrappers. any dlls placed in the scripts folder renamed from .dll to .asi will be injected into the game.
+Go to [release](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/tag/QOS) and download either:
 
-Extract either one that you choose either (JamesBondQOSFix.zip) or (JamesBondQOSFixASI.zip), then put the files into your game folder next to the JB_Launcher_s.exe file. 
+**[JamesBondQuantumofSolaceFix.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFix.zip)**  
+(d3d9 wrapper) — designed for standard users who just wish to use the fix stand-alone. Simply drag and drop the files into the game folder and launch the game.
 
-It is possible to take Chip.asi and rename it to Chip.dll then you could inject it yourself using any method you wish make sure to also take chip.ini and put it next to Chip.dll. 
+or
 
-**For standard users it is highly recommended to just use JamesBondQuantumofSolaceFix.zip file (d3d9 wrapper)**
+**[JamesBondQOSFixASI.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFixASI.zip)**  
+(stand-alone DLL provided as Chip.asi) which uses 13AG Ultimate ASI Loader (winmm.dll). This version is intended for users who wish to use the fix in tandem with other DLLs or wrappers.
 
-You can edit the settings you wish to use in JamesBondQuantumofSolaceFix.zip in the d3d9.ini file.
-or for JamesBondQOSFixASI.zip (scripts -> chip.ini)
+If the included winmm.dll is not working as intended, you can use any of the alternative loader DLLs from  
+[13AG Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases). Visit that page for more information on how to use the different loader variants.
+
+winmm.dll loads the files inside the “scripts” folder. Any DLL placed in this folder and renamed from .dll to .asi will be injected into the game.
+
+This version is designed for more advanced users or those wishing to load additional DLL fixes, mods, or wrappers.
+
+---
+
+Extract whichever version you choose (JamesBondQOSFix.zip or JamesBondQOSFixASI.zip), then place the files into your game folder next to JB_Launcher_s.exe.
+
+It is also possible to take Chip.asi and rename it to Chip.dll, then inject it manually using any method you prefer. Make sure chip.ini is placed next to Chip.dll.
+
+**For standard users it is highly recommended to use JamesBondQuantumofSolaceFix.zip (d3d9 wrapper).**
+
+You can edit the settings for JamesBondQuantumofSolaceFix.zip in the d3d9.ini file.  
+For JamesBondQOSFixASI.zip, edit settings in: scripts → chip.ini
 
 # FPS
 Default for FPS is 60 which you can change in the d3d9.ini file. The user can use the FPS toggle if they find it breaks at certain points at too high FPS. The toggle will set it back down to the original 30fps. When in game, press the hotkey the user has chosen in [hotkey]keycodes.txt and enter the virtual code in the d3d9.ini to toggle between the original and the new FPS setting.
