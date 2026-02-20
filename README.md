@@ -64,16 +64,42 @@ For JamesBondQOSFixASI.zip, edit settings in: scripts → chip.ini
 
 Default for FPS is 120 which you can change in the d3d9.ini or chip.ini file. The user can use the FPS toggle if they find it breaks at certain points at too high FPS. The toggle will set it back down to the original 30fps. When in game, press the hotkey the user has chosen in [hotkey]keycodes.txt and enter the virtual code in the d3d9.ini or chip.ini to toggle between the original and the new FPS setting.
 
-# FOV
+# FOV Settings
 
-The user can now define a custom FOV value directly in the INI.
+Default is FOVAutomatic = 1
 
-When in game, press the hotkey configured in d3d9.ini or chip.ini to toggle between the game’s original FOV and the user-defined FOV at any time.
+You can set your preferred in-game FOV using:
 
+```
 [FOV]
-value=100   (set this to any FOV you prefer)
+value=100    ; set this to any FOV you prefer
+```
 
-The original FOV is automatically detected and stored when the game initializes, allowing safe switching between the default value and the custom value during gameplay.
+#### Automatic FOV Mode (FOVAutomatic=1)
+
+If `FOVAutomatic=1`, the game will **always enforce** the FOV from `value=` for the entire session (no hotkey toggle).
+
+```
+[FOV]
+FOVAutomatic=1
+value=100
+```
+
+#### Toggle FOV Mode (FOVAutomatic=0)
+
+If `FOVAutomatic=0`, the mod enables the **FOV toggle hotkey**. While in-game, press the hotkey configured in `d3d9.ini` or `chip.ini` to toggle between:
+
+- The game’s **original FOV**
+- Your **user-defined FOV** (`value=`)
+
+```
+[FOV]
+FOVAutomatic=0
+value=100
+```
+
+The original FOV is automatically detected and stored when the game initializes, allowing safe switching between the default value and your custom value during gameplay.
+
 
 # Controller
 
