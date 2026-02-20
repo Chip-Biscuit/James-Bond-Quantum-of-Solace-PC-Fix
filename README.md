@@ -33,7 +33,7 @@ This fix is designed with only the Single Player portion of the game in mind. If
 # Instructions
 Go to [release](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/tag/QOS), download the **[JamesBondQuantumofSolaceFix.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFix.zip)** file (d3d9 wrapper)
 
- or **[JamesBondQOSFixASI.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFixASI.zip)** (stand alone DLL (Chip.dll) as (Chip.asi) extention which is using [13ag ultimate asi loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) (winmm.dll) for people who wish to use in tandem with other dlls.) 
+ or **[JamesBondQOSFixASI.zip](https://github.com/Chip-Biscuit/James-Bond-Quantum-of-Solace-PC-Fix-Controller-Support/releases/download/QOS/JamesBondQOSFixASI.zip)** (stand alone DLL (Chip.dll) as (Chip.asi) extention which is using [13ag ultimate asi loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) (winmm.dll) for people who wish to use in tandem with other dlls. if the winmm.dll file is not working as intended you can use any of the other dlls in [13ag ultimate asi loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) visit the page for more info on how to use this. ) 
 
 Extract either one that you choose either (JamesBondQOSFix.zip) or (JamesBondQOSFixASI.zip), then put the files into your game folder next to the JB_Launcher_s.exe file. 
 
