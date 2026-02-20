@@ -93,9 +93,9 @@ If `FOVAutomatic=0`, the mod enables the **FOV toggle hotkey**. While in-game, p
 - Your **user-defined FOV** (`value=`)
 
 
-       [FOV]
-       FOVAutomatic=0
-       value=100
+         [FOV]
+         FOVAutomatic=0
+         value=100
 
 
 The original FOV is automatically detected and stored when the game initializes, allowing safe switching between the default value and your custom value during gameplay.
